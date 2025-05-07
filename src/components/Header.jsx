@@ -8,7 +8,7 @@ export default function Header() {
           {/* Substituir por <img src={logo} alt="..." /> depois */}
         </div>
         <div className="header-text">
-          <div className="header-title titulo2">_Rubee</div>
+          <div className="header-title titulo2">_RubeeTo</div>
           <div className="header-slogan texto">UX · UI · FRONTEND<br />+ BACKEND ESSENCIAL</div>
         </div>
       </div>

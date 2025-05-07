@@ -7,7 +7,7 @@ import Projetcs from './pages/ProjetcsPage';
 
 function App() {
   return (
-    <Router basename="/rubee">
+    <Router basename="/rubeeto">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projetcs/:slug" element={<Projetcs/>} />

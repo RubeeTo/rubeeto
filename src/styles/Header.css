@@ -1,0 +1,77 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .header-text{
+    flex: 1;
+  }
+  
+  .header-content {
+    width: 100%;
+    height: 700px;
+    max-width: 900px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; 
+    text-align: right;
+  }
+  
+  .header-image {
+    background-image: url('../assets/pixel-me.png');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+    
+  }
+
+  .header-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+ 
+  /* Comportamento para telas largas (>= 1010px) */
+  @media screen and (min-width: 1010px) {
+    
+    .header-content {
+      display: flex;
+      height: 800px;
+      flex-direction: row;
+      justify-content: flex-start;
+      text-align: right;
+      align-items: center;
+    }
+  
+    .header-image {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-image: url('../assets/pixel-me.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .header-text {
+      margin: 13rem 5rem 0 0;;
+
+    }
+
+    .header-title {
+      font-size: 4rem;
+    }
+
+    .header-slogan {
+      font-size: 1.2rem;
+      
+    }
+  }
+
+  

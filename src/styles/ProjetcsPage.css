@@ -1,0 +1,111 @@
+.project-container{
+  background: linear-gradient(
+  360deg,
+    #F8BB87 0%,
+    #F47E4B 10%,
+    #DD5687 45%,
+    #9215F2 68%,
+    #020417 100%
+  );
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  flex-flow: column nowrap;
+  display: flex;
+  align-items: center; 
+  min-height: 100%;
+}
+
+.project-main {
+  max-width: 1010px;
+  width: 90%;
+  flex-flow: column nowrap;
+  display: flex;
+  align-items: center;
+  margin-top: 20em;
+}
+
+.project-title-area{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: white;
+}
+
+.project-title-area a {
+  /* background-image: url(); */
+
+}
+
+.project-ref-image {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: gray;
+}
+
+.project-ref-image img {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.project-description-area{
+  max-width: 1010px;
+  width: 100%;
+}
+
+.project-description{
+  width: 100%;
+  max-width: 1010px;
+  color: white;
+  
+}
+
+.project-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.tech-item img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
+.project-participation {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.project-participation h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.project-participation p {
+  color: white;
+  line-height: 1.6;
+}
+
+.project-gallery{
+  width: 100%;
+}
+
+.project-gallery-title {
+  width: 100%;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+
+}

@@ -1,0 +1,22 @@
+.home-container{
+  background: linear-gradient(
+    180deg,
+    #F8BB87 0%,
+    #F47E4B 30%,
+    #DD5687 53%,
+    #9215F2 73%,
+    #020417 100%
+  ); 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%; 
+  
+  
+}
+.foreground-layer {
+  width: 100%;
+  flex-flow: column nowrap;
+  display: flex;
+  align-items: center;
+}

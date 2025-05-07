@@ -1,0 +1,30 @@
+{
+  "eventao": {
+    "nome": "Eventão",
+    "repositorio": "https://github.com/RubeeTo/eventao",
+    "imagemReferencia": "/assets/eventao/ref.png",
+    "descricao": "",
+    "tecnologias": ["react", "firebase", "css-modules"],
+    "participacao": "",
+    "imagens": [
+      "/assets/eventao/1.png",
+      "/assets/eventao/2.png",
+      "/assets/eventao/3.png"
+    ]
+  },
+ 
+  "gattai": {
+    "nome": "Gattai",
+    "repositorio": "https://github.com/RubeeTo/gattai",
+    "imagemReferencia": "/assets/gattai/ref.png",
+    "descricao": "",
+    "tecnologias": ["react", "firebase", "css-modules"],
+    "participacao": "",
+    "imagens": [
+      "/assets/gattai/1.png",
+      "/assets/gattai/2.png",
+      "/assets/gattai/3.png"
+    ]
+  }
+  
+}

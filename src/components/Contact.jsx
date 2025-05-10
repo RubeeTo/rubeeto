@@ -1,8 +1,8 @@
 import '../styles/Contact.css';
 
-export default function Contact() {
+export default function Contact({ id }) {
   return (
-    <main className="contact-container" id="contact">
+    <main id={id} className="contact-container">
       <div className="contact-content">
 
         <h1 className="contact-title titulo">Contato</h1>

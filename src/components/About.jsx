@@ -1,8 +1,8 @@
 import '../styles/About.css';
 
-export default function About() {
+export default function About({ id }) {
   return (
-    <main className="about-container" id="about">
+    <main id={id} className="about-container">
       <div className="about-content">
 
         <div className="about-header">

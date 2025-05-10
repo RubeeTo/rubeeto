@@ -47,16 +47,37 @@
   gap: 1rem;
 }
 
-.thumb.placeholder {
+.thumb-placeholder {
+  position: relative;
   height: 120px;
   background-color: #ff8686;
+  margin-bottom: 3rem;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.thumb::before {
+.site-1 {
+  background-image: url(../assets/websites/petit_pixel.webp);
+}
+
+.site-2 {
+  background-image: url(../assets/websites/anuncie_pixel.webp);
+}
+
+.thumb-placeholder a {
+  position: absolute;
+  bottom: -28px;
+  text-decoration: none;
+  color: white;
+
+}
+
+/* .thumb::before {
   content: '';
   display: block;
   padding-top: 100%;
-}
+} */
 
 .project-group h2 {
   color: white;
@@ -119,9 +140,12 @@
     flex-direction: row;
   }
 
-  .thumb.placeholder {
+  .thumb-placeholder {
     width: 100%;
     height: 300px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   

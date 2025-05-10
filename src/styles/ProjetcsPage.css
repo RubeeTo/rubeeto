@@ -9,12 +9,13 @@
   );
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  margin: 0 0 6rem 0;
   position: relative;
   flex-flow: column nowrap;
   display: flex;
   align-items: center; 
   min-height: 100%;
+  padding-bottom: 10rem;
 }
 
 .project-main {
@@ -30,15 +31,30 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  width: 100%;
+  align-content: center;
   align-items: center;
+  width: 100%;
   color: white;
+  
 }
 
 .project-title-area a {
-  /* background-image: url(); */
-
+  position: relative;
+  text-indent: -99999px;
 }
+
+.project-title-area a::before{
+  content: '';
+  position: absolute;
+  right: 50%;
+  bottom: -50%;
+  width:40px;
+  height: 40px;
+  background-image: url(../assets/icons/git_icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 
 .project-ref-image {
   width: 100%;
@@ -61,27 +77,34 @@
   width: 100%;
   max-width: 1010px;
   color: white;
+  text-align: justify;
+  text-justify: inter-word;
   
 }
 
+.project-techs-title {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+} 
+
 .project-techs {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin: 2rem 0 3rem 0;
   width: 100%;
 }
 
 .tech-item img {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
-
 .project-participation {
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem 0 3rem 0;
 }
 
 .project-participation h3 {
@@ -92,10 +115,15 @@
 .project-participation p {
   color: white;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-gallery{
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .project-gallery-title {
@@ -103,9 +131,60 @@
   color: white;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 5rem;
+}
+
+.project-gallery img {
+  max-width: 30%;
+  height: 200px ;
+  padding: 0.2rem;
+  object-fit: cover;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 4px;
+}
+
+@media (min-width: 1010px) {
+
+  .tech-item img {
+    width: 64px;
+    height: 64px;
+    margin: 0.5rem;
+    object-fit: contain;
+  }
+
+  .project-participation {
+    margin: 2rem 0 6rem 0;
+  }
+  
+  .project-gallery img {
+    width: 33%;
+    height: 300px ;
+    padding: 0.3rem;
+    
+  }
+  .clickable:hover {
+    transform: scale(1.02);
+  }
+
 
 }

@@ -3,28 +3,64 @@
     "nome": "Eventão",
     "repositorio": "https://github.com/RubeeTo/eventao",
     "imagemReferencia": "/assets/eventao/ref.png",
-    "descricao": "",
-    "tecnologias": ["react", "firebase", "css-modules"],
-    "participacao": "",
+    "descricao": "O Eventão é um aplicativo Android que tem como objetivo facilitar o gerenciamento e a participação em eventos por meio de uma interface intuitiva e integrada ao Firebase. Os usuários podem se cadastrar, realizar login e visualizar uma lista de eventos disponíveis. Cada evento exibe informações detalhadas como nome, descrição, imagem, data, hora e local. Os participantes podem se inscrever em eventos, gerando automaticamente um QR Code associado à sua presença, permitindo controle de entrada em tempo real. Administradores, por sua vez, têm acesso à criação de novos eventos e à visualização da lista de inscritos. O sistema utiliza autenticação por e-mail e senha, além de armazenar todas as informações de forma estruturada em um banco de dados em nuvem. A navegação entre funcionalidades ocorre por meio de fragments, com suporte a carregamento dinâmico de imagens e leitura de QR Codes.",
+    "tecnologias": ["android","kotlin" ,"firebase"],
+    "participacao": "Responsável por toda a interface, experiência do usuário e integração com Firebase: Telas de login e cadastro, interface principal, adapters, tela de QR code e Lista de participantes.",
     "imagens": [
-      "/assets/eventao/1.png",
-      "/assets/eventao/2.png",
-      "/assets/eventao/3.png"
+      "/eventao/eventao_01.webp",
+      "/eventao/eventao_02.webp",
+      "/eventao/eventao_03.webp",  
+      "/eventao/eventao_05.webp",
+      "/eventao/eventao_06.webp",
+      "/eventao/eventao_07.webp",
+      "/eventao/eventao_08.webp",
+      "/eventao/eventao_09.webp",
+      "/eventao/eventao_10.webp",
+      "/eventao/eventao_11.webp"
     ]
   },
  
   "gattai": {
     "nome": "Gattai",
-    "repositorio": "https://github.com/RubeeTo/gattai",
+    "repositorio": "https://github.com/RubeeTo/gattai-loja_de_brinquedos",
     "imagemReferencia": "/assets/gattai/ref.png",
-    "descricao": "",
-    "tecnologias": ["react", "firebase", "css-modules"],
-    "participacao": "",
+    "descricao": "Gattai é uma aplicação web desenvolvida como vitrine para uma loja especializada em brinquedos. A proposta da loja é oferecer brinquedos que incentivam a criatividade, permitindo que a criatividade se conectem e se transformem em novas ideias.",
+    "tecnologias": ["Java", "thymeleaf", "html", "css", "mongo"],
+    "participacao": "Responsável por toda a interface, experiência do usuário e estruturação da aplicação com Thymeleaf: Componentes da Home, seção de brinquedos, formulário de contato, cadastro e navegação por dinâmica de produtos.",
     "imagens": [
-      "/assets/gattai/1.png",
-      "/assets/gattai/2.png",
-      "/assets/gattai/3.png"
+      "/gattai/gattai_01.webp",
+      "/gattai/gattai_02.webp",
+      "/gattai/gattai_03.webp",
+      "/gattai/gattai_04.webp" 
+    ]
+  },
+  
+    "react_no_more": {
+    "nome": "React No More",
+    "repositorio": "https://github.com/RubeeTo/react_no_more",
+    "imagemReferencia": "/assets/reac-no-more/ref.png",
+    "descricao": "React no more é um uma proposta de rede social voltado para interação com jogos de adivinhação. Os usuários podem criar cards dos poersonagens e participar de dos desafios de outros usuários.",
+    "tecnologias": ["php", "html", "css", "dynamodb"],
+    "participacao": "Responsável por toda a interface, experiência do usuário e end points: Tela de login, tela de cadastro, tela de feed e tela de criação de cards.",
+    "imagens": [
+      "/react-no-more/react_no_more_01.webp",
+      "/react-no-more/react_no_more_02.webp",
+      "/react-no-more/react_no_more_03.webp",
+      "/react-no-more/react_no_more_04.webp" 
     ]
   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
   
 }

@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/rubeeto/static/css/main.52a8e0b6.css",
+    "main.css": "/rubeeto/static/css/main.2d210646.css",
     "main.js": "/rubeeto/static/js/main.47b49f00.js",
     "static/js/453.ed59ccea.chunk.js": "/rubeeto/static/js/453.ed59ccea.chunk.js",
     "static/media/pixel-me.png": "/rubeeto/static/media/pixel-me.201a262f4efd3abea34b.png",
+    "static/media/my-photo-no.webp": "/rubeeto/static/media/my-photo-no.a38fcedffb4e0c3701b9.webp",
     "static/media/Pixellari.ttf": "/rubeeto/static/media/Pixellari.319bd0eb3ce3da4ab5b1.ttf",
     "static/media/petit_pixel.webp": "/rubeeto/static/media/petit_pixel.e4cc187f5ed2f0acdecf.webp",
     "static/media/anuncie_pixel.webp": "/rubeeto/static/media/anuncie_pixel.0df5aed3fd9e6c64c399.webp",
@@ -14,12 +15,12 @@
     "static/media/git_icon.svg": "/rubeeto/static/media/git_icon.e76c6adfec90052fd1c5.svg",
     "index.html": "/rubeeto/index.html",
     "static/media/rubee_logo.webp": "/rubeeto/static/media/rubee_logo.adbf098ddfc7635af7ae.webp",
-    "main.52a8e0b6.css.map": "/rubeeto/static/css/main.52a8e0b6.css.map",
+    "main.2d210646.css.map": "/rubeeto/static/css/main.2d210646.css.map",
     "main.47b49f00.js.map": "/rubeeto/static/js/main.47b49f00.js.map",
     "453.ed59ccea.chunk.js.map": "/rubeeto/static/js/453.ed59ccea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52a8e0b6.css",
+    "static/css/main.2d210646.css",
     "static/js/main.47b49f00.js"
   ]
 }

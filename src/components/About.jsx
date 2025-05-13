@@ -6,7 +6,7 @@ export default function About({ id }) {
       <div className="about-content">
 
         <div className="about-header">
-          <div className="about-image">         
+          <div className="about-image"> 
           </div>
             <h1 className="about-name titulo2">Rubens Torregrossa da Silva</h1>
           </div>
